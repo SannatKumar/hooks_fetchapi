@@ -34,7 +34,7 @@ function App() {
       <ul>
         {items.map(item =>(
           <li key={item.id}>
-            {item.category} {item.type}
+            {item.category} {item.type} {item.difficulty} {item.question} {item.correct_answer} {item.incorrect_answers}
           </li>
         ))}
       </ul>
